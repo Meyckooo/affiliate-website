@@ -126,26 +126,22 @@ attributes.forEach((attr) => {
 
   function swap_this(){
     if(window_width <= 600){
-      if ($("body").hasClass("front_page")){
-        //home
-        // Default
         $('.main_logo').insertAfter('.logo_wrap');
         $('#nav_area').insertBefore('header');
-        } else{
-        //non home  
-        $('.main_logo').insertAfter('.logo_wrap');
-        $('#nav_area').insertBefore('header');
-        }
+        $('.page_nav').prependTo('.toggle_right_nav');
       } else if(window_width <= 800){
         $('.main_logo').insertAfter('.logo_wrap');
         $('#nav_area').insertBefore('header');
+        $('.page_nav').prependTo('.toggle_right_nav');
   
       } else if(window_width > 800 && window_width <= 1000){
         $('.main_logo').insertBefore('.head_info');
         $('#nav_area').insertAfter('header');
+        $('.page_nav').prependTo('.toggle_right_nav');
       } else {
         $('.main_logo').insertBefore('.head_info');
         $('#nav_area').insertAfter('header');
+        $('.page_nav').appendTo('.head_info');
       }
   }
 

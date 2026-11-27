@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CompanyName</title>
+  <title>AFFILIATE WEBSITE</title>
 
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -36,30 +36,8 @@
                 </div>
 
                 <div class="head_info">
-                  <div class="header_info">
-                    <section class="header_phone">
-                      <h3>Phone Number: <a href="tel:1234567890"><mark>123-456-7890</mark></a></h3>
-                    </section>
-                    <section class="header_email">
-                      <h3>Email Address: <a href="mailto:meyckocanoy@gmail.com">meyckocanoy@gmail.com</a></h3>
-                    </section>
-                  </div>
-
-
-                  <div class="header_right_holder">
-                    <div class="social_media">
-                      <ul>
-                        <li><a href="https://www.facebook.com" target="_blank">
-                            <figure><img src="images/fb-icon.png" alt="facebook" /></figure>
-                          </a></li>
-                        <li><a href="https://www.twitter.com" target="_blank">
-                            <figure><img src="images/twitter-icon.png" alt="twitter" /></figure>
-                          </a></li>
-                      </ul>
-                    </div>
-                  </div>
-
                 </div>
+
               </div>
               <div class="clearfix"></div>
             </div>
@@ -101,11 +79,8 @@
                 <div class="wrapper">
                   <ul>
                     <li class="current_page_item"><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Resources</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Stuffs</a></li>
                   </ul>
                 </div>
               </nav>
